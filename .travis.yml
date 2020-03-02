@@ -20,11 +20,11 @@ env:
 matrix:
   include:
     - rvm: 2.5
-      env: FOREMAN_CORE_BRANCH=1.22-stable FOREMAN_FOG_PROXMOX_VERSION=0.10.2
-    - rvm: 2.5
       env: FOREMAN_CORE_BRANCH=1.23-stable FOREMAN_FOG_PROXMOX_VERSION=0.10.2
     - rvm: 2.5
       env: FOREMAN_CORE_BRANCH=1.24-stable FOREMAN_FOG_PROXMOX_VERSION=0.10.2
+    - rvm: 2.5
+      env: FOREMAN_CORE_BRANCH=2.0-stable FOREMAN_FOG_PROXMOX_VERSION=0.10.2
 
 addons:
   apt:
